@@ -15,6 +15,17 @@ const Home = () => {
         <p>We provide you the best spare parts fit for your vehicle for the lowest price in the market</p>
         <button className="btn flex">View products <AiOutlineArrowRight className='icon'/> </button>
       </div>
+
+      <div className="popularPlaces">
+        <div className="content">
+          <div className="images flex">
+            {/* <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" /> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

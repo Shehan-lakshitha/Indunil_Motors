@@ -33,7 +33,7 @@ body {
 }
 
 .grid {
-  display: fles;
+  display: grid;
   align-items: center;
   gap: 1.5rem;
 }

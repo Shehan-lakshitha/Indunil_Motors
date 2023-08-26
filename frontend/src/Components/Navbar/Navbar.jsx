@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <AiFillCloseCircle className="icon closeIcon" onClick={closeNavBar} />
       </div>
-      <button className="loginBtn btn">Login</button>
+      <button className="loginBtn btn">Log in</button>
       <PiDotsNineBold className="icon menuIcon" onClick={showNavBar} />
     </div>
   );

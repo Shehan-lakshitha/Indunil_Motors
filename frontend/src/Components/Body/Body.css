@@ -1,1 +1,49 @@
-/*# sourceMappingURL=Body.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;400;500;700;900&family=Nunito:wght@200;300;400;600;700&family=Permanent+Marker&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+root {
+  --primary-color: #0000ff;
+  --primary-color-light: #0db0dd;
+  --bgcolor: #fff;
+  --black: var(--black);
+  --whitecolor: #fff;
+  /* Font sizes*/
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 2rem;
+}
+
+.middle {
+  width: 100%;
+}
+.middle .secContainer .grid {
+  padding: 3rem;
+  border-radius: var(--borderRadius);
+  background: var(--primary-color-light);
+  justify-content: center;
+  margin: auto;
+  gap: 2rem;
+}
+.middle .secContainer .grid span {
+  justify-content: center;
+  gap: 1rem;
+}
+.middle .secContainer .grid span h1 {
+  font-size: var(--h1FontSize);
+  font-weight: 700;
+  color: var(--black);
+}
+.middle .secContainer .grid span p {
+  opacity: 0.8;
+  max-width: 80px;
+}/*# sourceMappingURL=Body.css.map */
