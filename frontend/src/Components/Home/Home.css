@@ -1,1 +1,55 @@
-/*# sourceMappingURL=Home.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;400;500;700;900&family=Nunito:wght@200;300;400;600;700&family=Permanent+Marker&display=swap");
+:root {
+  --primary-color: #0000ff;
+  --primary-color-light: #0db0dd;
+  --bgcolor: #fff;
+  --black: var(--black);
+  --whitecolor: #fff;
+  /* Font sizes*/
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.Home {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  top: 0;
+}
+.Home .imageBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Home .sectionText {
+  position: absolute;
+  height: 100%;
+  top: 30%;
+  bottom: 50%;
+  color: var(--whitecolor);
+  padding: 0 1.3rem;
+}
+.Home .sectionText h1 {
+  font-size: var(--biggestFontSize);
+  font-weight: 900;
+}
+.Home .sectionText p {
+  padding: 1rem 0;
+  font-weight: 500;
+}
+.Home .sectionText .btn {
+  gap: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: var(--h3FontSize);
+}/*# sourceMappingURL=Home.css.map */

@@ -25,9 +25,10 @@
   width: 100%;
   padding: 1.5rem 2rem;
   position: fixed;
-  border-bottom: 1.5px solid var(--primary-color);
+  border-bottom: 1.5px solid rgb(178, 182, 223);
   backdrop-filter: blur (5px);
   background: var(--whitecolor);
+  z-index: 1000;
 
   .logo {
     display: flex;
